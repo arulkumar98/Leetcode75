@@ -6,8 +6,9 @@ import static problem.p1431.KidsWithCandies.kidsWithCandies;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-      String s = "0123456789";
+        int [] arr = {1,8,6,2,5,4,8,3,7};
 
-        System.out.println(s.substring(1,5+1));
+        int left = 1;
+        int right = 8;
     }
 }
