@@ -32,7 +32,7 @@ public class KSumPairs {
 
         for (int num : nums) {
             int need = k - num;
-
+                //3,1,3,4,3
             if (map.getOrDefault(need, 0) > 0) {
                 count++;
                 map.put(need, map.get(need) - 1);
